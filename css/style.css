@@ -1,7 +1,7 @@
 body {
 	background: #f4f4f4;
 }
-
+/*navbar */
 .navbar {
 	min-height: 37px !important;
 	margin-bottom: 0;
@@ -68,6 +68,22 @@ body {
 }
 .navbar-default .navbar-link:hover {
   color: #f5f5f5;
+}
+/*custom*/
+.main-color-bg {
+	background-color: #3d3737;
+  	border-color: #5f5252;
+  	color: #ffffff;
+}
+
+#header{
+	background:#47474c;
+	color: #ffffff;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+}
+#header .create{
+	padding-top: 22px;
 }
 
 @media (max-width: 767px) {
