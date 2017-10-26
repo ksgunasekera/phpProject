@@ -71,9 +71,9 @@ body {
 }
 /*custom*/
 .main-color-bg {
-	background-color: #3d3737;
-  	border-color: #5f5252;
-  	color: #ffffff;
+	background-color: #3d3737 !important;
+  	border-color: #5f5252 !important;
+  	color: #ffffff!important;
 }
 
 #header{
@@ -84,6 +84,17 @@ body {
 }
 #header .create{
 	padding-top: 22px;
+}
+.breadcrumb {
+	background: #cccccc;
+	color: #333333;
+}
+.breadcrumb a{
+	color: #333333;
+}
+
+.dash-box {
+	text-align: center;
 }
 
 @media (max-width: 767px) {
