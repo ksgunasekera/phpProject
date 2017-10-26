@@ -97,6 +97,14 @@ body {
 	text-align: center;
 }
 
+#footer{
+	background: #333333;
+	color: #ffffff;
+	text-align: center;
+	padding: 30px;
+	margin-top: 50px;
+}
+
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #f5f5f5;
